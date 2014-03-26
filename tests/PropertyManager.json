@@ -242,39 +242,7 @@
         "value": "//div[@class='optionbg']/ul/li[1]/a"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "6000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "$114,092"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "$9,696"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "$5,426"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "13.25%"
-    },
-    {
+      {
       "type": "pause",
       "waitTime": "5000"
     },
@@ -285,32 +253,9 @@
         "value": "//div[@class='optionbg']/ul/li[2]/a"
       }
     },
-    {
+     {
       "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "$102,224"
-    },
-   
-    
-    
-    {
-      "type": "verifyTextPresent",
-      "text": "$5,426"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "14.38%"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -319,31 +264,9 @@
         "value": "//div[@class='optionbg']/ul/li[3]/a"
       }
     },
-    {
+      {
       "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "$100,774"
-    },
-    
-   
-    {
-      "type": "verifyTextPresent",
-      "text": "$5,426"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "15.15%"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -351,6 +274,10 @@
         "type": "xpath",
         "value": "//div[@class='optionbg']/ul/li[4]/a"
       }
+    },
+      {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
