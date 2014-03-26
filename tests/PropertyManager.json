@@ -226,9 +226,9 @@
         "value": "//div[@class='page-content']//label[normalize-space(.)='moderate']"
       }
     },
- {
+    {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "8000"
     },
 
     {
