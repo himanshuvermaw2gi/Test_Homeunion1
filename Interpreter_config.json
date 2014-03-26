@@ -9,10 +9,10 @@
             "port": 80
           },
           "browserOptions": {
-            "browserName": "chrome",
+            "browserName": "firefox",
             "username": "w2gi",
             "accessKey": "202ec8fe-2b54-44eb-a1c4-bf7fb1be2052",
-            "platform": "LINUX"
+            "platform": "ANY"
             
                    
           }
