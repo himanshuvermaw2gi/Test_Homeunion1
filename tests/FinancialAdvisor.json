@@ -1,0 +1,420 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://proto.homeunion.com/homeunion5/"
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span > #uniform-optionsRadios5 > span"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='uniform-optionsRadios5']/span/div/span/input"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span > div.radio > span"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//label[@id='lbl_ques4_tab']/div/span/div/span/input"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.checked > div.radio > span"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='uniform-optionsRadios4']/span/div/span/input"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.checked > div.radio > span.checked"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='uniform-optionsRadios4']/span/div/span/input"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#lbl_ques8_tab > #uniform-optionsRadios5 > span > div.radio > span"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//label[@id='lbl_ques8_tab']/div/span/div/span/input"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//label[@id='lbl_ques11_tab']/div/span/div/span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//label[@id='lbl_ques11_tab']/div/span/div/span/input"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#lbl_ques14_tab > #uniform-optionsRadios5 > span > #uniform-optionsRadios5 > span"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#optionsRadios5"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']/button"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#lbl_ques17_tab > #uniform-optionsRadios5 > span > #uniform-optionsRadios5 > span"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#optionsRadios5"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "9000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='page-content']//a[.='Register to see more details.']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@class='form']//button[normalize-space(.)='SIGN UP']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='page-sidebar-menu']//span[normalize-space(.)='eVault']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[2]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[4]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='page-sidebar-menu']//span[normalize-space(.)='Browse']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='page-content']/div[5]/div[1]/table/thead/tr/th[1]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='page-content']/div[5]/div[1]/table/thead/tr/th[1]/a/span"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "watchlistname"
+      },
+      "text": "test01"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@class='login-form']//button[normalize-space(.)='OK']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//th[@class='lightinvest']//button[.=' SAVED PORTFOLIO ']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//th[@class='lightinvest']/div/ul/li[1]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.row.lightborder"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//th[@class='lightinvest']/div/button[1]"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
