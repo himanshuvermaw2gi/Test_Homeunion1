@@ -1,0 +1,423 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://proto.homeunion.com/homeunion5/"
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.checked > #uniform-optionsRadios4 > span"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "optionsRadios4"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "register-submit-btn"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='uniform-optionsRadios5']/span/div/span"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='uniform-optionsRadios5']/span/div/span/input"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span > #uniform-optionsRadios5 > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='uniform-optionsRadios5']/span/div/span/input"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "amount_5"
+      },
+      "text": "$230000.00"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']/button"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span > #uniform-optionsRadios5 > span"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='uniform-optionsRadios5']/span/div/span/input"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='col-md-9']//button[.='CONTINUE ']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "REGISTER TO SEE MORE DETAILS."
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "register-submit-btn"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[2]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[4]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='page-content']//label[normalize-space(.)='moderate']"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='page-content']//label[normalize-space(.)='aggressive']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='page-content']//a[.=' Watch Tutorial']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='watchvideo']//button[.='Close']"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[1]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "$114,092"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "$9,696"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "$5,426"
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "13.25%"
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[2]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "$102,224"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "$9,822"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "$5,426"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "14.38%"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "$100,774"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "$10,461"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "$5,426"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "15.15%"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='optionbg']/ul/li[4]/a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#uniform-optionsRadios6 > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "optionsRadios6"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
