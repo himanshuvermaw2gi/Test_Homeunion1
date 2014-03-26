@@ -18,11 +18,10 @@
         "value": "span.checked > #uniform-optionsRadios4 > span"
       }
     },
- {
+    {
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -96,7 +95,6 @@
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -123,11 +121,10 @@
         "value": "//div[@class='col-md-9']/button"
       }
     },
- {
+    {
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -135,11 +132,10 @@
         "value": "span > #uniform-optionsRadios5 > span"
       }
     },
- {
+    {
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -147,11 +143,10 @@
         "value": "//div[@id='uniform-optionsRadios5']/span/div/span/input"
       }
     },
- {
+    {
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -181,11 +176,10 @@
         "value": "register-submit-btn"
       }
     },
- {
+    {
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -215,13 +209,15 @@
         "value": "//div[4]/div[2]/div/div[5]/div[2]/div[1]/ul/li[4]/a"
       }
     },
-    
-    
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='page-content']//a[.=' Watch Tutorial']"
+        "value": "//*[@id='edit_link']"
       }
     },
     {
