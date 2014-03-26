@@ -319,7 +319,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "html/body/div[3]/div[1]/div/ul/li[3]/a"
+        "value": "html/body/div[4]/div[1]/div/ul/li[3]/a/span"
       }
     },
     {
