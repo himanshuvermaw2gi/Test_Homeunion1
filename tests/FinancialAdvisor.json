@@ -319,7 +319,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='page-sidebar-menu']//span[normalize-space(.)='Browse']"
+        "value": "html/body/div[3]/div[1]/div/ul/li[3]/a"
       }
     },
     {
