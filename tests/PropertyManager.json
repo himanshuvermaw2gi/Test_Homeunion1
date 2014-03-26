@@ -217,28 +217,9 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='page-content']//label[normalize-space(.)='moderate']"
-      }
-    },
-    {
-      "type": "pause",
       "waitTime": "8000"
     },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='page-content']//label[normalize-space(.)='aggressive']"
-      }
-    },
-   
+    
     {
       "type": "clickElement",
       "locator": {
