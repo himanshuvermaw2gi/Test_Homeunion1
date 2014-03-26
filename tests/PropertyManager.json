@@ -295,8 +295,8 @@
     },
    
     {
-      "type": "verifyTextPresent",
-      "text": "$9,822"
+      "type": "pause",
+      "waitTime": "4000"
     },
     
     {
@@ -330,12 +330,11 @@
       "type": "verifyTextPresent",
       "text": "$100,774"
     },
-    
     {
-      "type": "verifyTextPresent",
-      "text": "$10,461"
+      "type": "pause",
+      "waitTime": "4000"
     },
-    
+   
     {
       "type": "verifyTextPresent",
       "text": "$5,426"
