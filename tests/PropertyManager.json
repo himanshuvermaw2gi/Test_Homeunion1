@@ -238,10 +238,7 @@
         "value": "//div[@class='page-content']//label[normalize-space(.)='aggressive']"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
+   
     {
       "type": "clickElement",
       "locator": {
