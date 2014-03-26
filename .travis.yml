@@ -1,0 +1,13 @@
+language: node.js
+before_script:
+         - "npm install -g browserstack"
+         - "npm install -g browserstack-webdriver"
+         - "npm install -g se-interpreter"
+         
+    
+script:
+     - "se-interpreter Browserstack/Interpreter_config.browserstack.js"
+
+BrowserStack_connect:
+    username: "w2gi"
+    secure: "202ec8fe-2b54-44eb-a1c4-bf7fb1be2052"
