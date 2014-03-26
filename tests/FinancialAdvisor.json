@@ -326,28 +326,8 @@
       "type": "pause",
       "waitTime": "4000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='page-content']/div[5]/div[1]/table/thead/tr/th[1]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='page-content']/div[5]/div[1]/table/thead/tr/th[1]/a/span"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
+    
+    
     {
       "type": "setElementText",
       "locator": {
