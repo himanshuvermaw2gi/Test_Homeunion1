@@ -215,10 +215,7 @@
         "value": "//div[@class='optionbg']/ul/li[4]/a"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "8000"
-    },
+    
     
     {
       "type": "clickElement",
